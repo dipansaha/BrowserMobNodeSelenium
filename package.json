@@ -1,0 +1,22 @@
+{
+  "name": "browsermob-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 300000"
+  },
+  "author": "9Technology core team",
+  "license": "ISC",
+  "devDependencies": {
+    "browsermob-proxy-client": "^0.1.0",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.37.0",
+    "express": "^4.16.3",
+    "geckodriver": "^1.11.0",
+    "iedriver": "^3.9.2",
+    "mocha": "^5.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

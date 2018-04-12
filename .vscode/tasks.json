@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "command": "tsc",
+  "isShellCommand": true,
+  "showOutput": "always",
+  "args": [],
+  "problemMatcher": "$tsc",
+  "tasks": [
+    {
+      "taskName": "build",
+      "args": [
+        "run",
+        "build"
+      ]
+    },
+    {
+      "taskName": "test",
+      "args": [
+        "run",
+        "mocha",
+        "${relativeFile}"
+      ]
+    }
+  ]
+}
